@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Alert - Smart Online Medicine Alert & Reminder Management System</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <i class="fas fa-pills"></i>
+                        <span>Medicine Alert</span>
+                    </div>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+                        <li><a href="#add-medicine" class="nav-link">Add Medicine</a></li>
+                        <li><a href="#history" class="nav-link">History</a></li>
+                        <li><a href="#login" class="nav-link btn-login">Login</a></li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-main">Smart Online Medicine</span>
+                        <span class="title-highlight">Alert & Reminder</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        A smart and simple platform to manage your daily medicines and never miss a dose. 
+                        Stay healthy with timely reminders and comprehensive tracking.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#get-started" class="btn btn-primary">
+                            <span>Get Started</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#features" class="btn btn-secondary">
+                            <i class="fas fa-play-circle"></i>
+                            <span>Learn More</span>
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">10K+</div>
+                            <div class="stat-label">Active Users</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50K+</div>
+                            <div class="stat-label">Medicines Tracked</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">99%</div>
+                            <div class="stat-label">Success Rate</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-card">
+                        <div class="card-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Medicine Reminder</h3>
+                            <p>Time to take your medicine</p>
+                            <div class="card-time">09:00 AM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Key Features</h2>
+                <p class="section-subtitle">Everything you need to manage your medicine schedule effectively</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3 class="feature-title">Smart Alerts</h3>
+                    <p class="feature-description">
+                        Receive pop-up and browser notifications for your medicines on time. 
+                        Never miss a dose with our intelligent reminder system.
+                    </p>
+                    <div class="feature-badge">Real-time</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Easy Scheduling</h3>
+                    <p class="feature-description">
+                        Add medicines, set time, choose frequency and track daily schedule. 
+                        Simple interface for complex medication routines.
+                    </p>
+                    <div class="feature-badge">Flexible</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title">History Tracking</h3>
+                    <p class="feature-description">
+                        See taken and missed medicines with clear history and analytics. 
+                        Track your medication adherence over time.
+                    </p>
+                    <div class="feature-badge">Analytics</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="feature-title">Family Profiles</h3>
+                    <p class="feature-description">
+                        Manage medicine reminders for multiple family members in one place. 
+                        Perfect for caregivers managing loved ones' medications.
+                    </p>
+                    <div class="feature-badge">Multi-user</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Get started in three simple steps</p>
+            </div>
+            <div class="steps-container">
+                <div class="step-item">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3 class="step-title">Create Profile</h3>
+                    <p class="step-description">Sign up and create your profile or add family members</p>
+                </div>
+                <div class="step-connector">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <h3 class="step-title">Add Medicines</h3>
+                    <p class="step-description">Add your medicines with dosage and schedule details</p>
+                </div>
+                <div class="step-connector">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 class="step-title">Get Reminders</h3>
+                    <p class="step-description">Receive timely alerts and track your medication history</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section class="dashboard-section" id="dashboard" style="display: none; padding: 6rem 0; background: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Medicine Dashboard</h2>
+                <p class="section-subtitle">Manage your daily medicine schedule</p>
+            </div>
+            <div class="dashboard-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div class="dashboard-card" style="background: white; padding: 2rem; border-radius: 20px; box-shadow: var(--shadow-md);">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--text-dark);">Today's Schedule</h3>
+                    <div id="todaySchedule">No medicines scheduled for today.</div>
+                </div>
+                <div class="dashboard-card" style="background: white; padding: 2rem; border-radius: 20px; box-shadow: var(--shadow-md);">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--text-dark);">Quick Stats</h3>
+                    <div id="quickStats">
+                        <div style="text-align: center; padding: 2rem; color: var(--text-gray);">Login to view your statistics</div>
+                    </div>
+                    <button onclick="testReminder()" style="width: 100%; margin-top: 1rem; padding: 0.75rem; background: #f59e0b; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600;">
+                        🧪 Test Alert Now
+                    </button>
+                </div>
+                <div class="dashboard-card" style="background: white; padding: 2rem; border-radius: 20px; box-shadow: var(--shadow-md);">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--text-dark);">Family Profiles</h3>
+                    <div id="familyProfiles">
+                        <button onclick="showAddFamilyModal()" class="btn btn-outline" style="width: 100%;">
+                            <i class="fas fa-user-plus" style="margin-right: 0.5rem;"></i>
+                            Add Family Member
+                        </button>
+                    </div>
+                </div>
+                <div class="dashboard-card" style="background: white; padding: 2rem; border-radius: 20px; box-shadow: var(--shadow-md);">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--text-dark);">Recent Notifications</h3>
+                    <div id="recentNotifications">
+                        <div style="text-align: center; padding: 2rem; color: var(--text-gray);">No recent notifications</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Medicine Section -->
+    <section class="add-medicine-section" id="add-medicine" style="display: none; padding: 6rem 0; background: white;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Add New Medicine</h2>
+                <p class="section-subtitle">Set up your medicine reminders</p>
+            </div>
+            <div style="max-width: 600px; margin: 0 auto; background: var(--bg-light); padding: 3rem; border-radius: 20px; box-shadow: var(--shadow-md);">
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Medicine Name</label>
+                    <input type="text" id="addMedicineName" placeholder="Enter medicine name" style="width: 100%; padding: 1rem; border: 2px solid var(--border-color); border-radius: 10px; font-size: 1rem;">
+                </div>
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Dosage</label>
+                    <input type="text" id="addMedicineDosage" placeholder="e.g., 1 tablet, 500mg" style="width: 100%; padding: 1rem; border: 2px solid var(--border-color); border-radius: 10px; font-size: 1rem;">
+                </div>
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Description</label>
+                    <input type="text" id="addMedicineDescription" placeholder="Medicine description" style="width: 100%; padding: 1rem; border: 2px solid var(--border-color); border-radius: 10px; font-size: 1rem;">
+                </div>
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Precaution</label>
+                    <input type="text" id="addMedicinePrecaution" placeholder="Safety precautions" style="width: 100%; padding: 1rem; border: 2px solid var(--border-color); border-radius: 10px; font-size: 1rem;">
+                </div>
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Reminder Time</label>
+                    <input type="time" id="addMedicineTime" style="width: 100%; padding: 1rem; border: 2px solid var(--border-color); border-radius: 10px; font-size: 1rem;">
+                </div>
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Frequency</label>
+                    <select id="addMedicineFrequency" style="width: 100%; padding: 1rem; border: 2px solid var(--border-color); border-radius: 10px; font-size: 1rem;">
+                        <option value="daily">Daily</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="monthly">Monthly</option>
+                        <option value="custom">Custom</option>
+                    </select>
+                </div>
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Start Date</label>
+                    <input type="date" id="addMedicineStartDate" style="width: 100%; padding: 1rem; border: 2px solid var(--border-color); border-radius: 10px; font-size: 1rem;">
+                </div>
+                <div class="form-group" style="margin-bottom: 2rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">End Date (Optional)</label>
+                    <input type="date" id="addMedicineEndDate" style="width: 100%; padding: 1rem; border: 2px solid var(--border-color); border-radius: 10px; font-size: 1rem;">
+                </div>
+                <div class="form-group" style="margin-bottom: 1.5rem; padding: 1.5rem; background: #eff6ff; border-radius: 10px; border: 2px solid var(--primary-color);">
+                    <h4 style="margin: 0 0 1rem 0; color: var(--primary-color); display: flex; align-items: center; gap: 0.5rem;">
+                        <i class="fas fa-bell"></i> Notification Settings
+                    </h4>
+                    <div style="margin-bottom: 1rem;">
+                        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                            <input type="checkbox" id="enableEmailAlert" checked style="width: 18px; height: 18px; cursor: pointer;">
+                            <span style="font-weight: 500; color: var(--text-dark);">Send Email Alert</span>
+                        </label>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 500; color: var(--text-dark);">Email Address</label>
+                        <input type="email" id="alertEmail" placeholder="your.email@example.com" style="width: 100%; padding: 0.75rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 0.95rem;">
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                            <input type="checkbox" id="enableSMSAlert" checked style="width: 18px; height: 18px; cursor: pointer;">
+                            <span style="font-weight: 500; color: var(--text-dark);">Send SMS Alert</span>
+                        </label>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 500; color: var(--text-dark);">Mobile Number (India)</label>
+                        <input type="tel" id="alertPhone" placeholder="+91 9876543210" pattern="^(\+91[\-\s]?)?[0]?(91)?[789]\d{9}$" style="width: 100%; padding: 0.75rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 0.95rem;">
+                        <small style="color: var(--text-gray); font-size: 0.8rem;">Enter Indian mobile number (10 digits starting with 7, 8, or 9)</small>
+                    </div>
+                    <div>
+                        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                            <input type="checkbox" id="enableSoundAlert" checked style="width: 18px; height: 18px; cursor: pointer;">
+                            <span style="font-weight: 500; color: var(--text-dark);">Play Sound Alert</span>
+                        </label>
+                    </div>
+                </div>
+                <button onclick="addMedicineFromPage()" class="btn btn-primary" style="width: 100%; padding: 1rem 2rem; font-size: 1.1rem;">
+                    <i class="fas fa-plus" style="margin-right: 0.5rem;"></i>
+                    Add Medicine
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section class="history-section" id="history" style="display: none; padding: 6rem 0; background: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Medicine History</h2>
+                <p class="section-subtitle">Track your medication adherence</p>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="history-card" style="background: white; padding: 2rem; border-radius: 20px; box-shadow: var(--shadow-md);">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--text-dark);">Your Medicines</h3>
+                    <div id="medicineHistory">Login to view your medicine history.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="get-started">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Never Miss a Dose?</h2>
+                <p class="cta-subtitle">Join thousands of users who trust Medicine Alert for their medication management</p>
+                <a href="#login" class="btn btn-primary btn-large">
+                    <span>Start Free Today</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-pills"></i>
+                        <span>Medicine Alert</span>
+                    </div>
+                    <p class="footer-description">
+                        Your trusted companion for managing medications and staying healthy.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#dashboard">Dashboard</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#history">History</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-envelope"></i> support@medicinealert.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Health St, Medical City</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Medicine Alert. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/test.js"></script>
+    <script src="js/debug.js"></script>
+</body>
+</html>

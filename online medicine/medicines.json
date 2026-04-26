@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Paracetamol",
+    "type": "Tablet",
+    "dosage": "500mg",
+    "frequency": "Every 6 hours",
+    "category": "Pain Relief"
+  },
+  {
+    "id": 2,
+    "name": "Ibuprofen",
+    "type": "Tablet",
+    "dosage": "400mg",
+    "frequency": "Every 8 hours",
+    "category": "Anti-inflammatory"
+  },
+  {
+    "id": 3,
+    "name": "Amoxicillin",
+    "type": "Capsule",
+    "dosage": "250mg",
+    "frequency": "Every 8 hours",
+    "category": "Antibiotic"
+  },
+  {
+    "id": 4,
+    "name": "Aspirin",
+    "type": "Tablet",
+    "dosage": "75mg",
+    "frequency": "Once daily",
+    "category": "Blood Thinner"
+  },
+  {
+    "id": 5,
+    "name": "Vitamin D",
+    "type": "Tablet",
+    "dosage": "1000 IU",
+    "frequency": "Once daily",
+    "category": "Vitamin"
+  }
+]
